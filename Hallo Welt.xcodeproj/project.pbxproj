@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA4025D714AB1D0D0040CA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4025D614AB1D0D0040CA1C /* Foundation.framework */; };
+		BA4025DA14AB1D0D0040CA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4025D914AB1D0D0040CA1C /* main.m */; };
+		BA4025DE14AB1D0D0040CA1C /* Hallo_Welt.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA4025DD14AB1D0D0040CA1C /* Hallo_Welt.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA4025D014AB1D0D0040CA1C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BA4025DE14AB1D0D0040CA1C /* Hallo_Welt.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA4025D214AB1D0D0040CA1C /* Hallo Welt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hallo Welt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4025D614AB1D0D0040CA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA4025D914AB1D0D0040CA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA4025DC14AB1D0D0040CA1C /* Hallo Welt-Prefix.pch */ = {isa = PBXFileReference; path = "Hallo Welt-Prefix.pch"; sourceTree = "<group>"; };
+		BA4025DD14AB1D0D0040CA1C /* Hallo_Welt.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hallo_Welt.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4025CF14AB1D0D0040CA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4025D714AB1D0D0040CA1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4025C714AB1D0D0040CA1C = {
+			isa = PBXGroup;
+			children = (
+				BA4025D814AB1D0D0040CA1C /* Hallo Welt */,
+				BA4025D514AB1D0D0040CA1C /* Frameworks */,
+				BA4025D314AB1D0D0040CA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4025D314AB1D0D0040CA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4025D214AB1D0D0040CA1C /* Hallo Welt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4025D514AB1D0D0040CA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4025D614AB1D0D0040CA1C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4025D814AB1D0D0040CA1C /* Hallo Welt */ = {
+			isa = PBXGroup;
+			children = (
+				BA4025D914AB1D0D0040CA1C /* main.m */,
+				BA4025DD14AB1D0D0040CA1C /* Hallo_Welt.1 */,
+				BA4025DB14AB1D0D0040CA1C /* Supporting Files */,
+			);
+			path = "Hallo Welt";
+			sourceTree = "<group>";
+		};
+		BA4025DB14AB1D0D0040CA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4025DC14AB1D0D0040CA1C /* Hallo Welt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4025D114AB1D0D0040CA1C /* Hallo Welt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4025E114AB1D0D0040CA1C /* Build configuration list for PBXNativeTarget "Hallo Welt" */;
+			buildPhases = (
+				BA4025CE14AB1D0D0040CA1C /* Sources */,
+				BA4025CF14AB1D0D0040CA1C /* Frameworks */,
+				BA4025D014AB1D0D0040CA1C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hallo Welt";
+			productName = "Hallo Welt";
+			productReference = BA4025D214AB1D0D0040CA1C /* Hallo Welt */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4025C914AB1D0D0040CA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BA4025CC14AB1D0D0040CA1C /* Build configuration list for PBXProject "Hallo Welt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA4025C714AB1D0D0040CA1C;
+			productRefGroup = BA4025D314AB1D0D0040CA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4025D114AB1D0D0040CA1C /* Hallo Welt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4025CE14AB1D0D0040CA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4025DA14AB1D0D0040CA1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA4025DF14AB1D0D0040CA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA4025E014AB1D0D0040CA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA4025E214AB1D0D0040CA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hallo Welt/Hallo Welt-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA4025E314AB1D0D0040CA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hallo Welt/Hallo Welt-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4025CC14AB1D0D0040CA1C /* Build configuration list for PBXProject "Hallo Welt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4025DF14AB1D0D0040CA1C /* Debug */,
+				BA4025E014AB1D0D0040CA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4025E114AB1D0D0040CA1C /* Build configuration list for PBXNativeTarget "Hallo Welt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4025E214AB1D0D0040CA1C /* Debug */,
+				BA4025E314AB1D0D0040CA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4025C914AB1D0D0040CA1C /* Project object */;
+}
